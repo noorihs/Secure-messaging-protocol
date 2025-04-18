@@ -5,7 +5,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connexion au serveur
-client_socket.connect(("192.168.100.208",12346))
+client_socket.connect(("ipaddr",port))
 
 # Recevoir un message du serveur
 
